@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Anders Børjesson</title>
+	</head>
+	<body>
+		<header>
+            <!-- Making navigation bar fill entire page on larger screens - Giving it dark page styling to add some "flair" to the page -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container-fluid">
+
+                    <!-- Assigning Name as our "brand / logo " therefore it always being shown in our navigation -->
+					<h1 class="navbar-brand">Anders Børjesson</h1>
+
+                    <!-- Sets navigation to be collapsable on smaller screens, reducing clutter -->
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+                    <!-- Collapsable nav links -->
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="http://www.easj.dk/" class="nav-link link-light">Erhvervsakademi Sjælland</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://anbo-easj.dk/cv/" class="nav-link link-light">Resume (CV)</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+            <!-- Starting main content - this being our information and "who are we?" section -->
+			<section class="container-md">
+				<div class="card">
+					<div class="card-body">
+						<h2 class="card-title">Anders Børjesson (ANBO)</h2>
+						<p class="card-subtitle text-body-">Zealand, Sjællands Erhvervsakademi, Roskilde</p>
+						<ul class="list-group list-group-flush card-text">
+							<li class="list-group-item">Cand.scient. i matematik og datalogi</li>
+							<li class="list-group-item">Lektor på Datamatikeruddannelsen</li>
+						</ul>
+
+                        <!-- setting extra information in a seperate box, that way it's also seperated and makes sense that it's "extra info" -->
+						<div class="card-footer">
+							<p>Maglegårdsvej 2, 4000 roskilde</p>
+                            <!-- Clicking the anchor tag sends you to your chosen email application-->
+							<p>Work Email: <a href="mailto:anbo@zealand.dk">anbo@zealand.dk</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+            <!-- main container for next page content -->
+			<div class="container-fluid">
+                <!-- telling content it needs to be in a row if possible -->
+				<div class="row">
+                    <!-- gives breakpoint "sm" to allow content to move places depending on screen sizes -->
+					<section class="col-sm p-2">
+
+						<h3 class="pt-2 mt-2">Teaching autumn 2019</h3>
+
+                        <!-- Favorite list styling aswell  -->
+						<ul class="list-group list-group-flush">
+                            
+                            <!-- Links have gotten specific styling to make the underline seem less "agressive" aswell as some margin to give room between link and text -->
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://docs.google.com/document/d/e/2PACX-1vQnP5GDXd2YmuUapbnNgaUAK-4gsDtZGDl-qZT-g3xsUCSvPhfr1OTdo7esf_b3qm3ypfQSwMuz5Mab/pub">Programmering 3rd semester</a>Computer Science</li>
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://docs.google.com/document/d/e/2PACX-1vQSdR7ZSr7DfFCc8SC0tSqz8VaLKHN8LCGRmfxTFVnl1GgkHnk_Wr_-7r_Lr5EX-qpOt7sBzo6SmHH0/pub">Mobile Application Development</a>4th semester Comp Science</li>
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/internship/index.html">Internship</a>5th semester, Computer Science</li>
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/dissertation2020spring/">Dissertation Course</a>Dissertations, Computer Science</li>
+						</ul>
+					</section>
+
+					<section class="col-sm p-2">
+						<h3 class="pt-2 mt-2">Teaching Spring 2019</h3>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/mobile2019spring/index.html">Mobile Application Development</a>4th Semester Computer Science</li>
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/internship/index.html">Internship</a>5th semester, Computer Science</li>
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/dissertation2019spring/">Dissertation Course</a>Dissertations, Computer Science</li>
+						</ul>
+					</section>
+
+					<section class="col-sm p-2">
+						<h3 class="pt-2">Teaching autumn 2018</h3>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/prog3_2018autumn/index.html">Programming 3rd Semester</a>Computer Science</li>
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/mobile2018autumn/index.html">Mobile Application Development</a>4th Semester Computer Science</li>
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/internship/index.html">Internship</a>5th Semester, Computer Science</li>
+							<li class="list-group-item"><a class="me-2 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/dissertation2018autumn/">Dissertation course</a>Dissertations, Computer Science</li>
+						</ul>
+					</section>
+                    <!-- I Like using cards :D  -->
+					<section class="container-fluid">
+						<div class="card">
+							<div class="card-body">
+								<h3 class="card-title">Previous Semesters</h3>
+                                <!-- Link has been integrated into the text and by using the "link-info" tag it also stands out -->
+								<p class="card-text">if you're interested in reading more about my teachings from previous semesters you can click <a class="link-info link-offset-2 link-underline-opacity-100-hover" href="https://anbo-easj.dk/undervisning/">Read More</a></p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+
+        <!-- Footer also gets "dark" styling to finish off page the same way that navigation starts -->
+		<footer class="bg-dark container-fluid d-flex justify-content-evenly">
+				<div class="row">
+					<div class="col-sm p-2">
+						<a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://msdn.microsoft.com/en-us/default.aspx">Microsoft Developer Network</a>
+					</div>
+					<div class="col-sm p-2">
+						<a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library: Intro. til programmeringssprog mv.</a>
+					</div>
+					<div class="col-sm p-2">
+						<a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/bekendtgoerelser/">Bekendtgørelser om datamatiker-uddannelsen, eksamen og lign.</a>
+					</div>
+					<div class="col-sm p-2">
+						<a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://anbo-easj.dk/index.htm">Index</a>
+					</div>
+				</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+</html>

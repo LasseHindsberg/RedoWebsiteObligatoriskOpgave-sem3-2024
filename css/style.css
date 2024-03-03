@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* 
+// Har kinda brugt bootstrap til alt min styling
+// så eneste "inline" styling jeg vælger at tilføje
+// er at ændre hvilken font der bliver brugt på siden :) 
+*/
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
